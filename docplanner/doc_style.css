@@ -1,0 +1,498 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+header img {
+  width: 268px;
+  height: 33px;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem 0;
+  top: 0;
+  width: 100vw;
+  background-color: white;
+}
+
+.nav-bar {
+  display: flex;
+  gap: 15px;
+}
+
+/* The Nav Bar items  */
+#About,
+#Career:hover,
+#Departments:hover {
+  color: #00b39b;
+  text-decoration: none;
+}
+
+#Career,
+#Departments {
+  color: #ababab;
+}
+
+.nav-bar {
+  font-size: 18px;
+  font-weight: 420;
+}
+
+#header-logo {
+  width: 40px;
+  height: 40px;
+}
+
+.begining {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 75px;
+}
+
+#H-p {
+  color: #00b39b;
+  font-size: 35px;
+  margin-bottom: 1px;
+  font-weight: 300;
+  letter-spacing: 3px;
+  padding-top: 42px;
+}
+
+.two-P {
+  color: #241e1e9d;
+  font-size: 16px;
+  display: flex;
+  text-align: justify;
+  gap: 50px;
+  align-items: center;
+  margin-top: 25px;
+
+  padding-left: 270px;
+  padding-right: 290px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.para1 {
+  padding-right: 30px;
+  line-height: 1.5;
+  font-weight: 400;
+  margin: 0, 0, 10px;
+}
+.para2 {
+  padding-left: 30px;
+  line-height: 1.5;
+  font-weight: 400;
+  margin: 0, 0, 10px;
+}
+
+/* --------------------------------------------------------- */
+/* SECOND SECTION OF THE SITE */
+.second-section-1 {
+  background-color: #00ccb1;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  justify-content: space-between;
+  height: 400px;
+}
+
+.patient-2 {
+  background-color: #3d83df;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  justify-content: space-between;
+  height: 400px;
+}
+.patient-3 {
+  background-color: #1b2734;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  justify-content: space-between;
+  height: 400px;
+}
+
+.second-section {
+  display: flex;
+  width: 100%;
+  max-width: 1000px;
+  padding: 0 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding: 1.375em 1.25em 0;
+  font-size: 1.5em;
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 3.75rem auto 2.5rem;
+  color: #fff;
+}
+
+#select-1,
+#select-2,
+#select-3 {
+  border: none;
+  text-decoration: underline;
+  margin-bottom: 30px;
+  font-style: bold;
+  background-color: inherit;
+}
+
+select {
+  background-color: inherit;
+  color: white;
+  border: none;
+  text-decoration: underline;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.patient-2 select-2 {
+  background-color: #3d83df;
+  /* border: none;
+  text-decoration: underline;
+  margin-bottom: 30px;
+  font-style: bold; */
+}
+
+.patient-3 select-3 {
+  background-color: #1b2734;
+  /* border: none;
+  text-decoration: underline;
+  margin-bottom: 30px;
+  font-style: bold; */
+}
+
+.second-section-1 #patient-1,
+.patient-2 #doctor,
+.patient-3 #clinic {
+  font-size: 1.625em;
+  font-weight: 400;
+  color: #fff;
+  margin: 0.3em 0;
+}
+.second-section img {
+  width: 25px;
+  height: auto;
+}
+
+/* Third section */
+
+.section-3 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-3 #coup {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+.section-3-title {
+  font-size: 1.625em;
+  margin: 0.25em 0 0.35em;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+  padding-right: 1em;
+  color: #00b39b;
+}
+
+#section-3-images {
+  display: grid;
+  grid-template-columns: repeat(4, 80px);
+  /* grid-template-rows: repeat(3, 20px); */
+  column-gap: 70px;
+  row-gap: 40px;
+  margin-right: 65px;
+}
+
+#section-3-images img {
+  width: 5rem;
+  object-fit: contain;
+}
+
+/* Fourth Section */
+
+.section-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 55px;
+  background-color: #d0faf4;
+  padding-left: 50px;
+}
+.section-4-header {
+  font-family: Work Sans, Arial, sans-serif;
+  padding-top: 60px;
+}
+.section-4-header h2 {
+  color: #00b39b;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+  padding-left: 50px;
+}
+.section-4-header p {
+  padding-left: 50px;
+  padding-top: 20px;
+  font-size: 15px;
+  color: #747474;
+  padding-bottom: 50px;
+}
+.monday {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+.wednesday {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.section-4-section {
+  display: flex;
+  margin-right: 50px;
+  height: 100%;
+  justify-content: space-around;
+  margin-left: 100px;
+}
+
+.section-4-section h3 {
+  font-size: 1.8461538462em;
+  color: #00b39b;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+}
+.section-4-section p {
+  font-size: 13px;
+  color: #747474;
+  /* color: #f51212; */
+  padding: 7px;
+
+  font-weight: 400;
+}
+
+#tuesday {
+  margin-bottom: 20px;
+}
+
+#tuesday p,
+#patients-section-4 p,
+#visit-4 p,
+#doctors-section-4 p {
+  margin-top: 25px;
+}
+#patients-section-4 h3 {
+  text-align: center;
+}
+#visit-4 {
+  margin-bottom: 20px;
+}
+/* GRID */
+/* --------------------------------- */
+
+#tuesday,
+#patients,
+#visit-4,
+#patients-section-4,
+#doctors-section-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  text-align: center;
+  width: 250px;
+  border-radius: 2px;
+}
+#tuesday img,
+#patients-section-4 img,
+#visit-4 img,
+#doctors-section-4 img {
+  width: 25px;
+  height: auto;
+}
+.section-4-section div {
+  height: 500px;
+  width: 250px;
+}
+
+/* fifth Section */
+.section-5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 70px;
+  width: 100%;
+}
+.section-5 h3 {
+  font-size: 2em;
+  color: #00b39b;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-align: center;
+}
+.section-5 p {
+  margin: 1.6em 0;
+  line-height: 1.5;
+  color: #100505ad;
+  text-align: center;
+  font-weight: 400;
+}
+
+/* Sixth section */
+.section-6 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5cm;
+  justify-content: center;
+  margin-top: 75px;
+}
+.section-6 div {
+  border-radius: 3%;
+  margin: 0.44%;
+}
+
+/* GRID */
+.section-6 button {
+  margin-top: 0.5cm;
+  display: flex;
+  gap: 2cm;
+  justify-content: center;
+  background: #3d83df;
+  line-height: 1em;
+  color: #fff;
+  font-weight: 200;
+  letter-spacing: 0.04em;
+  text-align: center;
+  outline: 0;
+  border: 0;
+  border-radius: 4px;
+  font-size: 12px;
+  padding: 10px;
+  margin-right: 20px;
+  align-items: center;
+}
+.section-6 p {
+  font-size: medium;
+  color: #747474;
+
+  padding-top: 20px;
+  padding-left: 20px;
+}
+/* .section-country {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 150px;
+  padding-right: 150px;
+} */
+
+.section-country {
+  display: grid;
+  /* grid-template-columns: repeat(3, 1fr); */
+  grid-gap: 16px;
+}
+
+.section-country div:hover {
+  box-shadow: 0 -6px 10px 5px rgba(0, 0, 0, 0.1);
+}
+div .buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* seventh section */
+.section-7 h1 {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 1em;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.section-7 button {
+  margin-left: 120px;
+  background-color: #3d83df;
+  color: #fff;
+  padding: 20px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-size: 10px;
+  border-radius: 4px;
+  text-align: center;
+  border: #fff;
+}
+.section-7 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* Footer section */
+
+footer {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 25px;
+  font-size: 12px;
+  color: #ababab;
+  padding-left: 90px;
+  padding-right: 90px;
+}
+footer p {
+  padding-top: 20px;
+}
+
+/* MEDIA QUERY */
+
+/* Media query for small screens */
+@media only screen and (max-width: 600px) {
+  .section-country {
+    grid-template-columns: 1fr;
+  }
+  #section-3-images {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .section-country {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #section-3-images {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 992px) and (min-width: 1200px) {
+  .section-4 .section-6 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .section-country {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  #section-3-images {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
